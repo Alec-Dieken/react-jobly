@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-color: rgb(14, 178, 233);
+}
+
+html {
+  background-color: rgb(14, 178, 233);
+}

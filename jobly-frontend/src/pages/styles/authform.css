@@ -1,0 +1,46 @@
+.authform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.authform label, .authform a {
+    font-size: 18px;
+    color: deepskyblue;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.authform input {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid deepskyblue;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.authform button {
+    font-size: 18px;
+    color: white;
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.authform button:hover {
+    background-color: dodgerblue;
+}
+
+.authform a {
+    margin: 0.5rem 0 0 0;
+    transition: color 0.3s;
+}

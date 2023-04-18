@@ -1,0 +1,43 @@
+.companies-container, .jobs-container {
+    padding-bottom: 2rem;
+}
+
+.companies-container ul, .jobs-container ul {
+    list-style: none;
+    border-radius: 10px;
+    
+    width: fit-content;
+    max-width: 800px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.pagination {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 0 1rem;
+}
+
+.pagination button {
+    background-color: rgb(10, 120, 148);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #9fd9ff;
+    width: 5rem;
+    transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+    background-color: rgba(10, 120, 148, 0.7);
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+}
+
+.error {
+    color:lightpink;
+    background-color: firebrick;
+    padding: 0.5rem;
+}
